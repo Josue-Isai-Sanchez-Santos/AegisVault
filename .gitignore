@@ -1,0 +1,61 @@
+# AegisVault — AV-006
+# Esta lista reduce el riesgo de agregar archivos privados por accidente.
+# NO sustituye una revisión del contenido antes de cada commit.
+
+# Variables de entorno, configuraciones locales y credenciales
+.env
+.env.*
+*.env
+*.env.*
+.npmrc
+*.local
+secrets/
+private/
+credentials/
+
+# Claves y certificados privados (los certificados públicos pueden requerir excepción controlada)
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Bóvedas, respaldos y exportaciones de pruebas o uso real
+*.vault
+*.vaultbackup
+*.backup
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+backups/
+exports/
+
+# Dependencias y artefactos (fases posteriores)
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Sistemas operativos y configuraciones locales de IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
