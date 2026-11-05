@@ -13,9 +13,12 @@ Este archivo sigue [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/
 - **AV-005:** `ROADMAP.md` como especificación maestra de los 73 puntos estables `AV-001` a `AV-073`, con control de estado y registro operativo de riesgos `RSK-001` a `RSK-010`.
 - **AV-005:** `CONTRIBUTING.md` con Definition of Done, estados, nombres de ramas, Conventional Commits, procedimiento de reanudación y política de versiones.
 - **AV-005:** `CHANGELOG.md` para registrar cambios documentales y técnicos sin simular versiones publicadas.
-
 - **AV-006 (preparación):** se reunió la documentación de AV-001 a AV-005 y se añadió `.gitignore` para iniciar el repositorio local; el commit inicial y la aceptación de la puerta de fase requieren verificación por el mantenedor.
-
+- **AV-007:** Configurado el entorno de desarrollo con TypeScript estricto, Vite 8, ESLint 10 y Prettier.
+- **AV-007:** Incorporados scripts de desarrollo, compilación, análisis estático y verificación.
+- **AV-007:** Generado package-lock.json para instalaciones reproducibles mediante npm ci.
+- **AV-007:** Verificadas instalaciones y compilaciones en WSL Ubuntu y Windows nativo.
+- **AV-007:** Auditoría npm completada sin vulnerabilidades reportadas; se mantienen overrides de minimatch sujetos a pruebas de regresión.
 ### Security
 
 - **AV-005:** todo cierre debe comprobar políticas `POL-01` a `POL-23`, revisar riesgos y evitar cualquier afirmación de seguridad auditada sin revisión independiente. La obligación documental **no significa** que los controles ya estén implementados.

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AegisVault — AV-007 (diagnóstico)</title>
+  </head>
+  <body>
+    <main>
+      <h1>AegisVault — AV-007</h1>
+      <p id="status">Comprobando herramientas...</p>
+      <p>Solo diagnóstico local: NO es una bóveda ni una extensión instalable.</p>
+    </main>
+    <script type="module">
+      import { getToolchainStatus } from '/src/tooling/smoke.ts';
+
+      const status = document.getElementById('status');
+      if (status) status.textContent = getToolchainStatus();
+    </script>
+  </body>
+</html>

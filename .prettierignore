@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+coverage/
+package-lock.json
+# La documentación de AV-001..AV-006 no se reformatea en AV-007.
+docs/
+README.md
+ROADMAP.md
+SECURITY.md
+CONTRIBUTING.md
+CHANGELOG.md
