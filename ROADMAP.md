@@ -102,7 +102,7 @@ AegisVault/
 | AV-004 | Documentado / integración y aceptación locales pendientes de verificar | `docs/architecture.md`, `docs/decisions/ADR-001.md` |
 | AV-005 | Documentado / integración y aceptación locales pendientes de verificar | `ROADMAP.md`, `CONTRIBUTING.md`, `CHANGELOG.md` |
 | AV-006 | Archivos preparados / commit y revisión pendientes | `.gitignore`, `README.md`, documentos AV-001 a AV-005 |
-| AV-007 | Pendiente | — |
+| AV-007 | En revisión — pruebas superadas, pendiente de aceptación | Instalación y compilación correctas en WSL y Windows; commit f3b7b48 |
 | AV-008 | Pendiente | — |
 | AV-009 | Pendiente | — |
 | AV-010 | Pendiente | — |
