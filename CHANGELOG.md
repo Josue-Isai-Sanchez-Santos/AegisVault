@@ -19,6 +19,8 @@ Este archivo sigue [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/
 - **AV-007:** Generado package-lock.json para instalaciones reproducibles mediante npm ci.
 - **AV-007:** Verificadas instalaciones y compilaciones en WSL Ubuntu y Windows nativo.
 - **AV-007:** Auditoría npm completada sin vulnerabilidades reportadas; se mantienen overrides de minimatch sujetos a pruebas de regresión.
+- **AV-008:** Creada la estructura modular de core, extension, ui y shared, con directorio independiente de pruebas.
+- **AV-008:** Incorporado un verificador de dependencias entre capas y 29 pruebas automatizadas de arquitectura.
 ### Security
 
 - **AV-005:** todo cierre debe comprobar políticas `POL-01` a `POL-23`, revisar riesgos y evitar cualquier afirmación de seguridad auditada sin revisión independiente. La obligación documental **no significa** que los controles ya estén implementados.

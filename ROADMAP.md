@@ -103,7 +103,7 @@ AegisVault/
 | AV-005 | Documentado / integración y aceptación locales pendientes de verificar | `ROADMAP.md`, `CONTRIBUTING.md`, `CHANGELOG.md` |
 | AV-006 | Archivos preparados / commit y revisión pendientes | `.gitignore`, `README.md`, documentos AV-001 a AV-005 |
 | AV-007 | En revisión — pruebas superadas, pendiente de aceptación | Instalación y compilación correctas en WSL y Windows; commit f3b7b48 |
-| AV-008 | Pendiente | — |
+| AV-008 | En revisión — PR #1 abierta; pruebas superadas; pendiente de integración y aceptación | 29/29 pruebas de arquitectura; npm run check correcto en WSL |
 | AV-009 | Pendiente | — |
 | AV-010 | Pendiente | — |
 | AV-011 | Pendiente | — |
